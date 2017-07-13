@@ -15,4 +15,4 @@ The kit has its own UI. Feel free to customize!
 Check the [sample project](PulseDetector) for demonstration.
 
 ## License
-See the [LICENSE](LICENSE.md) file (MIT).
+See the [LICENSE](https://github.com/ItamarM/HeartRate-iOS-SDK/blob/master/LICENSE) file (MIT).
