@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4na-TO-jI0">
+                                <rect key="frame" x="0.0" y="200" width="600" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="bv4-Lr-WX8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid Frames:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISp-DF-PgV">
+                                <rect key="frame" x="0.0" y="559" width="600" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ms8-wM-Xtu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ISp-DF-PgV" secondAttribute="trailing" id="2Ki-4O-YX8"/>
+                            <constraint firstAttribute="trailing" secondItem="4na-TO-jI0" secondAttribute="trailing" id="A1Q-1H-XhZ"/>
+                            <constraint firstItem="4na-TO-jI0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="Pca-DE-Hyk"/>
+                            <constraint firstItem="ISp-DF-PgV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Sp3-0u-UoH"/>
+                            <constraint firstAttribute="bottom" secondItem="ISp-DF-PgV" secondAttribute="bottom" constant="20" symbolic="YES" id="Vrw-ES-a7T"/>
+                            <constraint firstAttribute="centerY" secondItem="4na-TO-jI0" secondAttribute="centerY" id="eqw-Bt-OBk"/>
+                            <constraint firstAttribute="centerX" secondItem="ISp-DF-PgV" secondAttribute="centerX" id="gy9-08-Tck"/>
+                            <constraint firstItem="4na-TO-jI0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="nvp-SC-Gbr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Pca-DE-Hyk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pulseRate" destination="4na-TO-jI0" id="RqC-NP-2Ns"/>
+                        <outlet property="validFrames" destination="ISp-DF-PgV" id="EAh-EH-i05"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="347"/>
+        </scene>
+    </scenes>
+</document>

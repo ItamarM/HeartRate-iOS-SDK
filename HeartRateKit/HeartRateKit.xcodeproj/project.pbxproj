@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5459BE1DFD5D000079B880 /* HeartRateKitAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5459BC1DFD5D000079B880 /* HeartRateKitAlgorithm.h */; };
+		5C5459BF1DFD5D000079B880 /* HeartRateKitAlgorithm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C5459BD1DFD5D000079B880 /* HeartRateKitAlgorithm.mm */; };
+		5C5459C21DFD72D70079B880 /* HRKButterworth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5459C01DFD72D70079B880 /* HRKButterworth.cpp */; };
+		5C5459C31DFD72D70079B880 /* HRKButterworth.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5459C11DFD72D70079B880 /* HRKButterworth.h */; };
+		5C5459C81DFD73930079B880 /* UIImage+ImageAverageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5459C41DFD73930079B880 /* UIImage+ImageAverageColor.h */; };
+		5C5459C91DFD73930079B880 /* UIImage+ImageAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5459C51DFD73930079B880 /* UIImage+ImageAverageColor.m */; };
+		5C5459D01DFD96740079B880 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5459CF1DFD96740079B880 /* AVFoundation.framework */; };
+		5C5459D21DFD967D0079B880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5459D11DFD967D0079B880 /* UIKit.framework */; };
+		5C5459DE1DFDB3D40079B880 /* UIView+HeartRateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5459DC1DFDB3D40079B880 /* UIView+HeartRateKit.h */; };
+		5C5459DF1DFDB3D40079B880 /* UIView+HeartRateKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5459DD1DFDB3D40079B880 /* UIView+HeartRateKit.m */; };
+		5C78DF951DFB185000B15AD8 /* HeartRateKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78DF911DFB185000B15AD8 /* HeartRateKitController.m */; };
+		5C78DF971DFB195100B15AD8 /* HeartRateKitController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C78DF941DFB185000B15AD8 /* HeartRateKitController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C78DF981DFB195400B15AD8 /* HeartRateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C78DF931DFB185000B15AD8 /* HeartRateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C78DF9C1DFB1ECA00B15AD8 /* HeartRateKitResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C78DF9A1DFB1ECA00B15AD8 /* HeartRateKitResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C78DF9F1DFB1F7300B15AD8 /* HeartRateKitResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C78DF9E1DFB1F7300B15AD8 /* HeartRateKitResult.m */; };
+		5C78DFA91DFB1F9600B15AD8 /* HeartRateKitResult+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C78DFA81DFB1F9600B15AD8 /* HeartRateKitResult+Protected.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C5459BC1DFD5D000079B880 /* HeartRateKitAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitAlgorithm.h; sourceTree = "<group>"; };
+		5C5459BD1DFD5D000079B880 /* HeartRateKitAlgorithm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HeartRateKitAlgorithm.mm; sourceTree = "<group>"; };
+		5C5459C01DFD72D70079B880 /* HRKButterworth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HRKButterworth.cpp; sourceTree = "<group>"; };
+		5C5459C11DFD72D70079B880 /* HRKButterworth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRKButterworth.h; sourceTree = "<group>"; };
+		5C5459C41DFD73930079B880 /* UIImage+ImageAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageAverageColor.h"; sourceTree = "<group>"; };
+		5C5459C51DFD73930079B880 /* UIImage+ImageAverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageAverageColor.m"; sourceTree = "<group>"; };
+		5C5459CF1DFD96740079B880 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5C5459D11DFD967D0079B880 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C5459DC1DFDB3D40079B880 /* UIView+HeartRateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HeartRateKit.h"; sourceTree = "<group>"; };
+		5C5459DD1DFDB3D40079B880 /* UIView+HeartRateKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HeartRateKit.m"; sourceTree = "<group>"; };
+		5C78DF751DFB0F5E00B15AD8 /* libHeartRateKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHeartRateKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C78DF911DFB185000B15AD8 /* HeartRateKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateKitController.m; sourceTree = "<group>"; };
+		5C78DF931DFB185000B15AD8 /* HeartRateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKit.h; sourceTree = "<group>"; };
+		5C78DF941DFB185000B15AD8 /* HeartRateKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitController.h; sourceTree = "<group>"; };
+		5C78DF9A1DFB1ECA00B15AD8 /* HeartRateKitResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitResult.h; sourceTree = "<group>"; };
+		5C78DF9E1DFB1F7300B15AD8 /* HeartRateKitResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateKitResult.m; sourceTree = "<group>"; };
+		5C78DFA81DFB1F9600B15AD8 /* HeartRateKitResult+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HeartRateKitResult+Protected.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C78DF721DFB0F5E00B15AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5459D21DFD967D0079B880 /* UIKit.framework in Frameworks */,
+				5C5459D01DFD96740079B880 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5459CE1DFD96740079B880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5459D11DFD967D0079B880 /* UIKit.framework */,
+				5C5459CF1DFD96740079B880 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C78DF6C1DFB0F5E00B15AD8 = {
+			isa = PBXGroup;
+			children = (
+				5C78DF901DFB185000B15AD8 /* Internal */,
+				5C78DF921DFB185000B15AD8 /* Public */,
+				5C78DF761DFB0F5E00B15AD8 /* Products */,
+				5C5459CE1DFD96740079B880 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C78DF761DFB0F5E00B15AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C78DF751DFB0F5E00B15AD8 /* libHeartRateKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C78DF901DFB185000B15AD8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				5C5459DC1DFDB3D40079B880 /* UIView+HeartRateKit.h */,
+				5C5459DD1DFDB3D40079B880 /* UIView+HeartRateKit.m */,
+				5C5459C41DFD73930079B880 /* UIImage+ImageAverageColor.h */,
+				5C5459C51DFD73930079B880 /* UIImage+ImageAverageColor.m */,
+				5C5459C01DFD72D70079B880 /* HRKButterworth.cpp */,
+				5C5459C11DFD72D70079B880 /* HRKButterworth.h */,
+				5C78DFA81DFB1F9600B15AD8 /* HeartRateKitResult+Protected.h */,
+				5C78DF9E1DFB1F7300B15AD8 /* HeartRateKitResult.m */,
+				5C78DF911DFB185000B15AD8 /* HeartRateKitController.m */,
+				5C5459BC1DFD5D000079B880 /* HeartRateKitAlgorithm.h */,
+				5C5459BD1DFD5D000079B880 /* HeartRateKitAlgorithm.mm */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		5C78DF921DFB185000B15AD8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				5C78DF931DFB185000B15AD8 /* HeartRateKit.h */,
+				5C78DF941DFB185000B15AD8 /* HeartRateKitController.h */,
+				5C78DF9A1DFB1ECA00B15AD8 /* HeartRateKitResult.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C78DF961DFB189700B15AD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5459BE1DFD5D000079B880 /* HeartRateKitAlgorithm.h in Headers */,
+				5C78DFA91DFB1F9600B15AD8 /* HeartRateKitResult+Protected.h in Headers */,
+				5C78DF981DFB195400B15AD8 /* HeartRateKit.h in Headers */,
+				5C5459C81DFD73930079B880 /* UIImage+ImageAverageColor.h in Headers */,
+				5C5459C31DFD72D70079B880 /* HRKButterworth.h in Headers */,
+				5C78DF9C1DFB1ECA00B15AD8 /* HeartRateKitResult.h in Headers */,
+				5C78DF971DFB195100B15AD8 /* HeartRateKitController.h in Headers */,
+				5C5459DE1DFDB3D40079B880 /* UIView+HeartRateKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C78DF741DFB0F5E00B15AD8 /* HeartRateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C78DF7E1DFB0F5E00B15AD8 /* Build configuration list for PBXNativeTarget "HeartRateKit" */;
+			buildPhases = (
+				5C78DF711DFB0F5E00B15AD8 /* Sources */,
+				5C78DF721DFB0F5E00B15AD8 /* Frameworks */,
+				5C78DF961DFB189700B15AD8 /* Headers */,
+				5C5459DB1DFD97100079B880 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartRateKit;
+			productName = HeartRateKit;
+			productReference = 5C78DF751DFB0F5E00B15AD8 /* libHeartRateKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C78DF6D1DFB0F5E00B15AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Itamar Mula";
+				TargetAttributes = {
+					5C78DF741DFB0F5E00B15AD8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C78DF701DFB0F5E00B15AD8 /* Build configuration list for PBXProject "HeartRateKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C78DF6C1DFB0F5E00B15AD8;
+			productRefGroup = 5C78DF761DFB0F5E00B15AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C78DF741DFB0F5E00B15AD8 /* HeartRateKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C5459DB1DFD97100079B880 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C78DF711DFB0F5E00B15AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C78DF9F1DFB1F7300B15AD8 /* HeartRateKitResult.m in Sources */,
+				5C5459BF1DFD5D000079B880 /* HeartRateKitAlgorithm.mm in Sources */,
+				5C5459C21DFD72D70079B880 /* HRKButterworth.cpp in Sources */,
+				5C5459C91DFD73930079B880 /* UIImage+ImageAverageColor.m in Sources */,
+				5C5459DF1DFDB3D40079B880 /* UIView+HeartRateKit.m in Sources */,
+				5C78DF951DFB185000B15AD8 /* HeartRateKitController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C78DF7C1DFB0F5E00B15AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C78DF7D1DFB0F5E00B15AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C78DF7F1DFB0F5E00B15AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		5C78DF801DFB0F5E00B15AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C78DF701DFB0F5E00B15AD8 /* Build configuration list for PBXProject "HeartRateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C78DF7C1DFB0F5E00B15AD8 /* Debug */,
+				5C78DF7D1DFB0F5E00B15AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C78DF7E1DFB0F5E00B15AD8 /* Build configuration list for PBXNativeTarget "HeartRateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C78DF7F1DFB0F5E00B15AD8 /* Debug */,
+				5C78DF801DFB0F5E00B15AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C78DF6D1DFB0F5E00B15AD8 /* Project object */;
+}
